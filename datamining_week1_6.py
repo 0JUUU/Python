@@ -1,0 +1,22 @@
+intlist = [1,3,5,7,9]
+print(type(intlist))
+print(intlist)
+intlist2 = list(range(0,10,2))
+print(intlist2)
+
+print(intlist[2])
+print(intlist[:2])
+print(intlist[2:])
+print(len(intlist))
+print(sum(intlist))
+
+intlist.append(11)
+print(intlist)
+print(intlist.pop())
+print(intlist)
+print(intlist + [11,13,15])
+print(intlist * 3)
+intlist.insert(2,4)
+print(intlist)
+intlist.sort(reverse=True)
+print(intlist)
